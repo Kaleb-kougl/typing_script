@@ -18,10 +18,10 @@
  * The script will run indefinetly until you kill the process using ctrl + c. 
 */
 
-const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'//Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
 var robot = require("robotjs");
 
-async function task(i) { // 3
+async function task(i) {
     await timer(1000);
     robot.typeString(loremIpsum[i]+ '');
 }
