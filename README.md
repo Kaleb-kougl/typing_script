@@ -5,11 +5,16 @@
 1. Dowload your OS dependecies. 
     Please ensure you have the required dependencies before installing:
 
-  ### Windows
-    windows-build-tools npm package (npm install --global --production windows-build-tools from an elevated PowerShell or CMD.exe)
-  ### Mac
-    Xcode Command Line Tools.
-1. npm i
+      ### Windows
+      ```
+        windows-build-tools npm package 
+        npm install --global --production windows-build-tools 
+      ```
+        from an elevated PowerShell or CMD.exe
+      ### Mac
+        Xcode Command Line Tools
+    
+1. ```npm i```
  
  
 ## Running script - 
